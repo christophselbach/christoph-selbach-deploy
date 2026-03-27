@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-03-27T07:37:22.742Z",
+  "sourceRepo": "christoph-selbach-typo-studio",
+  "sourceBranch": "codex/feat-field-sessions-runtime",
+  "sourceCommit": "05474c5c88dd223753a75f8c7a2693b1812c9eae",
+  "deployOwner": "christophselbach",
+  "deployRepo": "christoph-selbach-deploy",
+  "artifactRoot": "."
+}
