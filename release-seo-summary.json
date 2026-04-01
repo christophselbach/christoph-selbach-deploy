@@ -1,0 +1,123 @@
+{
+  "canonicalDomain": "christoph-selbach.de",
+  "generatedAt": "2026-04-01T09:24:31.986Z",
+  "dryRun": false,
+  "staticRouteCount": 8,
+  "visibleWorkCount": 13,
+  "enabledShopWorkCount": 2,
+  "publicShopWorkCount": 1,
+  "hiddenShopWorkExcludedCount": 1,
+  "routeCount": 25,
+  "routes": [
+    "/",
+    "/arbeiten",
+    "/texte",
+    "/vita",
+    "/shop",
+    "/datenschutz",
+    "/impressum",
+    "/kontakt",
+    "/works/decision-fields",
+    "/works/exponate",
+    "/works/field-sessions",
+    "/works/image-function",
+    "/works/image-state",
+    "/works/neomaris",
+    "/works/possibly-you",
+    "/works/siedlung",
+    "/works/similar-to-my-weekend",
+    "/works/strata",
+    "/works/surface-archive",
+    "/works/top-3",
+    "/works/vor-ort",
+    "/texte/das-missverstaendnis-der-bilder",
+    "/texte/durchschnittsbilder",
+    "/texte/erinnerungsbilder",
+    "/shop/neomaris"
+  ],
+  "routeGroups": {
+    "staticRoutes": [
+      "/",
+      "/arbeiten",
+      "/texte",
+      "/vita",
+      "/shop",
+      "/datenschutz",
+      "/impressum",
+      "/kontakt"
+    ],
+    "visibleWorkRoutes": [
+      "/works/decision-fields",
+      "/works/exponate",
+      "/works/field-sessions",
+      "/works/image-function",
+      "/works/image-state",
+      "/works/neomaris",
+      "/works/possibly-you",
+      "/works/siedlung",
+      "/works/similar-to-my-weekend",
+      "/works/strata",
+      "/works/surface-archive",
+      "/works/top-3",
+      "/works/vor-ort"
+    ],
+    "publicShopRoutes": [
+      "/shop/neomaris"
+    ],
+    "hiddenShopWorkSlugsExcluded": [
+      "sammlungskarte-test"
+    ],
+    "textDetailRoutes": [
+      "/texte/das-missverstaendnis-der-bilder",
+      "/texte/durchschnittsbilder",
+      "/texte/erinnerungsbilder"
+    ]
+  },
+  "visibility": {
+    "publicWorks": [
+      "decision-fields",
+      "exponate",
+      "field-sessions",
+      "image-function",
+      "image-state",
+      "neomaris",
+      "possibly-you",
+      "siedlung",
+      "similar-to-my-weekend",
+      "strata",
+      "surface-archive",
+      "top-3",
+      "vor-ort"
+    ],
+    "nonPublicWorkStates": {}
+  },
+  "sourceMeta": {
+    "title": "Christoph Selbach",
+    "description": "Arbeiten, Texte und Informationen von Christoph Selbach.",
+    "ogTitle": "Christoph Selbach",
+    "ogDescription": "Arbeiten, Texte und Informationen von Christoph Selbach.",
+    "twitterTitle": "Christoph Selbach",
+    "twitterDescription": "Arbeiten, Texte und Informationen von Christoph Selbach."
+  },
+  "derivedBaseline": {
+    "siteName": "Christoph Selbach",
+    "pageCount": 25,
+    "pageTypeCounts": {
+      "home": 1,
+      "works_overview": 1,
+      "privacy": 1,
+      "imprint": 1,
+      "contact": 1,
+      "shop_overview": 1,
+      "shop_detail": 1,
+      "texts_overview": 1,
+      "text_detail": 3,
+      "vita": 1,
+      "work_detail": 13
+    },
+    "overrideConfigPath": "/Users/christophselbach/christoph-selbach-typo-studio/content/site/seo.json",
+    "overrideConfigPresent": false,
+    "routeOverrideCount": 0,
+    "overriddenRoutes": []
+  }
+}

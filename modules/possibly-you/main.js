@@ -127,7 +127,7 @@ function mount(el, options = {}) {
     const height = Math.max(1, Math.floor(container.clientHeight || window.innerHeight));
     canvas.width = width;
     canvas.height = height;
-    const pixelSize = Math.max(1, Math.ceil(Math.max(width / engine.baseWidth, height / engine.baseHeight)));
+    const pixelSize = Math.max(1, Math.floor(Math.min(width / engine.baseWidth, height / engine.baseHeight)));
     const offsetX = Math.floor((width - engine.baseWidth * pixelSize) / 2);
     const offsetY = Math.floor((height - engine.baseHeight * pixelSize) / 2);
     return {
