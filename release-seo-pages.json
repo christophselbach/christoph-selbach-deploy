@@ -1,6 +1,6 @@
 {
   "canonicalDomain": "christoph-selbach.de",
-  "generatedAt": "2026-04-01T09:24:31.987Z",
+  "generatedAt": "2026-04-01T13:37:52.853Z",
   "dryRun": false,
   "siteName": "Christoph Selbach",
   "overrides": {
@@ -54,7 +54,7 @@
       "sourceKey": "content/site/datenschutz.md",
       "title": "Datenschutz | Christoph Selbach",
       "description": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Website verwendet derzeit keine Analyse-, Tracking- oder Marketingdienste von Drittanbietern.",
-      "summary": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Website verwendet derzeit keine Analyse-, Tracking- oder Marketingdienste von Drittanbietern.\n\nVerantwortliche Stelle\n\nVerantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nChristoph Selbach \nLeipziger...",
+      "summary": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Website verwendet derzeit keine Analyse-, Tracking- oder Marketingdienste von Drittanbietern.\n\nVerantwortliche Stelle\n\nVerantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nChristoph Selbach\\\nLeipziger...",
       "ogImage": "/favicons/icon-512.png",
       "overrideApplied": false,
       "overrideFields": []
