@@ -1,6 +1,6 @@
 {
   "canonicalDomain": "christoph-selbach.de",
-  "generatedAt": "2026-04-01T13:37:52.853Z",
+  "generatedAt": "2026-04-03T14:49:08.323Z",
   "dryRun": false,
   "siteName": "Christoph Selbach",
   "overrides": {
@@ -253,8 +253,8 @@
       "pageType": "work_detail",
       "sourceKey": "content/works/possibly-you/work.json",
       "title": "Possibly You 1/(256^300) | Arbeiten | Christoph Selbach",
-      "description": "Die Arbeit zeigt eine sich wandelnde Farbfläche. Erst der Titel „Possibly You 1/(256^300)“ lenkt den Blick darauf, dass hier nicht nur Farben wechseln,...",
-      "summary": "Die Arbeit zeigt eine sich wandelnde Farbfläche. Erst der Titel „Possibly You 1/(256^300)“ lenkt den Blick darauf, dass hier nicht nur Farben wechseln, sondern die Möglichkeit eines bestimmten Bildes aufgerufen wird. Das Werk behandelt das Bild nicht als gegebene Darstellung,...",
+      "description": "Sichtbar ist eine sich wandelnde Farbfläche. Erst der Titel „Possibly You 1/(256^300)“ lenkt den Blick darauf, dass hier nicht nur Farben wechseln, sondern...",
+      "summary": "Sichtbar ist eine sich wandelnde Farbfläche. Erst der Titel „Possibly You 1/(256^300)“ lenkt den Blick darauf, dass hier nicht nur Farben wechseln, sondern die Möglichkeit eines bestimmten Bildzustands aufgerufen wird. Was erscheint, sind fortlaufend wechselnde Zustände aus...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/possibly-you/images/possibly-you-preview__display.jpg",
       "overrideApplied": false,
