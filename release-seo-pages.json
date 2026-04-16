@@ -1,6 +1,6 @@
 {
   "canonicalDomain": "christoph-selbach.de",
-  "generatedAt": "2026-04-13T06:44:34.637Z",
+  "generatedAt": "2026-04-16T13:20:36.532Z",
   "dryRun": false,
   "siteName": "Christoph Selbach",
   "overrides": {
@@ -10,82 +10,183 @@
     "overriddenRoutes": []
   },
   "pageTypeCounts": {
-    "home": 1,
-    "works_overview": 1,
-    "privacy": 1,
-    "imprint": 1,
-    "contact": 1,
-    "shop_overview": 1,
-    "shop_detail": 1,
-    "texts_overview": 1,
-    "text_detail": 3,
-    "vita": 1,
-    "work_detail": 13
+    "language_entrypoint": 1,
+    "home": 2,
+    "works_overview": 2,
+    "privacy": 2,
+    "imprint": 2,
+    "contact": 2,
+    "shop_overview": 2,
+    "shop_detail": 4,
+    "texts_overview": 2,
+    "text_detail": 6,
+    "vita": 2,
+    "work_detail": 26
   },
   "pages": [
     {
       "route": "/",
+      "baseRoute": "/",
+      "language": "x-default",
       "canonicalUrl": "https://christoph-selbach.de/",
-      "pageType": "home",
+      "pageType": "language_entrypoint",
       "sourceKey": "content/site/homepage.md",
       "title": "Christoph Selbach",
-      "description": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit,...",
-      "summary": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit, Oberfläche und Bedeutung. Bilder erscheinen darin als offene, materielle und kontextabhängige Strukturen, in denen Wahrheit...",
+      "description": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\\\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit,...",
+      "summary": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\\\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit, Oberfläche und Bedeutung. Bilder erscheinen darin als offene, materielle und kontextabhängige Strukturen, in denen Wahrheit...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en"
+        },
+        {
+          "hreflang": "x-default",
+          "href": "https://christoph-selbach.de/"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/arbeiten",
-      "canonicalUrl": "https://christoph-selbach.de/arbeiten",
+      "route": "/de",
+      "baseRoute": "/",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de",
+      "pageType": "home",
+      "sourceKey": "content/site/homepage.md",
+      "title": "Christoph Selbach",
+      "description": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\\\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit,...",
+      "summary": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden.\\\nIch untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit, Oberfläche und Bedeutung. Bilder erscheinen darin als offene, materielle und kontextabhängige Strukturen, in denen Wahrheit...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en"
+        },
+        {
+          "hreflang": "x-default",
+          "href": "https://christoph-selbach.de/"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/de/arbeiten",
+      "baseRoute": "/arbeiten",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/arbeiten",
       "pageType": "works_overview",
       "sourceKey": "content/site/curation.json",
       "title": "Arbeiten | Christoph Selbach",
       "description": "13 oeffentliche Werkserien im Portfolio von Christoph Selbach.",
       "summary": "Decision Fields fragt, wann ein Bild ein Bild von etwas ist. Die Arbeit verdichtet viele KI-Normbilder (Seeds) derselben Bildaufgabe (Prompt) zu einem Strukturfeld. Sichtbar wird, wo sich das Bild stabilisiert – und wo nicht.",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/arbeiten"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/arbeiten"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/datenschutz",
-      "canonicalUrl": "https://christoph-selbach.de/datenschutz",
+      "route": "/de/datenschutz",
+      "baseRoute": "/datenschutz",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/datenschutz",
       "pageType": "privacy",
       "sourceKey": "content/site/datenschutz.md",
       "title": "Datenschutz | Christoph Selbach",
       "description": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Website verwendet derzeit keine Analyse-, Tracking- oder Marketingdienste von Drittanbietern.",
       "summary": "Der Schutz Ihrer personenbezogenen Daten ist mir wichtig. Diese Website verwendet derzeit keine Analyse-, Tracking- oder Marketingdienste von Drittanbietern.\n\nVerantwortliche Stelle\n\nVerantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nChristoph Selbach\\\nLeipziger...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/datenschutz"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/datenschutz"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/impressum",
-      "canonicalUrl": "https://christoph-selbach.de/impressum",
+      "route": "/de/impressum",
+      "baseRoute": "/impressum",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/impressum",
       "pageType": "imprint",
       "sourceKey": "content/site/impressum.md",
       "title": "Impressum | Christoph Selbach",
       "description": "Christoph Selbach\\\nLeipziger Platz 9\\\n50733 Köln\\\nDeutschland",
       "summary": "Christoph Selbach\\\nLeipziger Platz 9\\\n50733 Köln\\\nDeutschland\n\nUmsatzsteuer-ID\n\nKeine Umsatzsteuer-Identifikationsnummer vorhanden\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV\n\nChristoph Selbach\\\n[Adresse wie oben]\n\nHinweis zu externen Shop-Angeboten\n\nAuf dieser Website...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/impressum"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/impressum"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/kontakt",
-      "canonicalUrl": "https://christoph-selbach.de/kontakt",
+      "route": "/de/kontakt",
+      "baseRoute": "/kontakt",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/kontakt",
       "pageType": "contact",
       "sourceKey": "content/site/kontakt.md",
       "title": "Kontakt | Christoph Selbach",
       "description": "Kontakt für Anfragen zu Arbeiten, Projekten und Zusammenarbeit.",
       "summary": "Kontakt für Anfragen zu Arbeiten, Projekten und Zusammenarbeit.\n\nAm einfachsten per E-Mail:",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/kontakt"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/kontakt"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/shop",
-      "canonicalUrl": "https://christoph-selbach.de/shop",
+      "route": "/de/shop",
+      "baseRoute": "/shop",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/shop",
       "pageType": "shop_overview",
       "sourceKey": "content/shop/config.json",
       "title": "Shop | Christoph Selbach",
@@ -93,85 +194,202 @@
       "summary": "Hier finden Sie eine Auswahl meiner Werke zum Erwerb. Originale sind auf Anfrage erhältlich; ergänzend biete ich hier wechselnde offene und limitierte Editionen an.",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/shop/neomaris",
-      "canonicalUrl": "https://christoph-selbach.de/shop/neomaris",
+      "route": "/de/shop/neomaris",
+      "baseRoute": "/shop/neomaris",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/shop/neomaris",
       "pageType": "shop_detail",
       "sourceKey": "content/shop/works/neomaris.json",
-      "title": "Neomaris | Shop | Christoph Selbach",
+      "title": "Neomaris Edition | Shop | Christoph Selbach",
       "description": "Cyanotypien aus Plastikresten, die wie Tiefseewesen erscheinen.",
       "summary": "Neomaris zeigt Bilder, die an Algen, Korallen oder Tiefseewesen erinnern. Tatsächlich bestehen sie aus Plastikresten. Durch die Cyanotypie, ein frühes fotografisches Verfahren für wissenschaftliche Pflanzenbilder, erscheint ausgerechnet das Material, das Natur verdrängt, hier...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop/neomaris"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop/neomaris"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/texte",
-      "canonicalUrl": "https://christoph-selbach.de/texte",
+      "route": "/de/shop/sammlungskarte-test",
+      "baseRoute": "/shop/sammlungskarte-test",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/shop/sammlungskarte-test",
+      "pageType": "shop_detail",
+      "sourceKey": "content/shop/works/sammlungskarte-test.json",
+      "title": "Originale | Shop | Christoph Selbach",
+      "description": "Originale aus mehreren Werkserien sind auf Anfrage erhältlich. Bitte nennen Sie in Ihrer Anfrage die Werkserie und den Titel der Arbeit, damit ich Ihnen ein...",
+      "summary": "Originale aus mehreren Werkserien sind auf Anfrage erhältlich. Bitte nennen Sie in Ihrer Anfrage die Werkserie und, falls vorhanden, den Titel der Arbeit, damit ich Ihnen ein passendes Angebot zukommen lassen kann.",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/decision-fields/images/0097_wc_iter2_converge_FieldConvergence_71_151 (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop/sammlungskarte-test"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop/sammlungskarte-test"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/de/texte",
+      "baseRoute": "/texte",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/texte",
       "pageType": "texts_overview",
       "sourceKey": "content/site/texts.md",
       "title": "Texte | Christoph Selbach",
       "description": "Texte über Bildgebrauch, Bildordnungen und die Normalisierung visueller Praktiken.",
       "summary": "Texte über Bildgebrauch, Bildordnungen und die Normalisierung visueller Praktiken.",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/texte/das-missverstaendnis-der-bilder",
-      "canonicalUrl": "https://christoph-selbach.de/texte/das-missverstaendnis-der-bilder",
+      "route": "/de/texte/das-missverstaendnis-der-bilder",
+      "baseRoute": "/texte/das-missverstaendnis-der-bilder",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/texte/das-missverstaendnis-der-bilder",
       "pageType": "text_detail",
       "sourceKey": "content/texts/das-missverstaendnis-der-bilder.md",
       "title": "Das Missverständnis der Bilder | Essay | Christoph Selbach",
       "description": "Der Essay beschreibt den Perspektivwechsel von sichtbaren Bildern hin zu Bildern ohne Betrachtungsauftrag und zeigt, wie systemische und belegorientierte...",
       "summary": "Das sichtbare Bildverständnis\n\nWenn wir über Bilder sprechen, sprechen wir fast immer zuerst über Motive. Was ist darauf zu sehen? Ein Gesicht, eine Landschaft, ein Ereignis, ein Objekt. Wir sprechen darüber, ob ein Bild schön ist, gut komponiert, interessant, gelungen,...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/das-missverstaendnis-der-bilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/das-missverstaendnis-der-bilder"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/texte/durchschnittsbilder",
-      "canonicalUrl": "https://christoph-selbach.de/texte/durchschnittsbilder",
+      "route": "/de/texte/durchschnittsbilder",
+      "baseRoute": "/texte/durchschnittsbilder",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/texte/durchschnittsbilder",
       "pageType": "text_detail",
       "sourceKey": "content/texts/durchschnittsbilder.md",
       "title": "Durchschnittsbilder | Essay | Christoph Selbach",
       "description": "Durchschnittsbilder sind keine auffälligen Bilder, sondern Bilder, die gerade durch ihre Unauffälligkeit wirken. Der Text beschreibt sie als Bildlogik, die...",
       "summary": "Bildlogik des Unauffälligen\n\nDurchschnittsbilder sind kein Stil und kein Bildtyp. Sie sind eine Bildlogik. Man erkennt sie nicht daran, dass sie auffallen, sondern daran, dass sie nicht auffallen. Sie widersprechen nicht, fordern nichts und erklären sich nicht. Gerade deshalb...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/durchschnittsbilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/durchschnittsbilder"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/texte/erinnerungsbilder",
-      "canonicalUrl": "https://christoph-selbach.de/texte/erinnerungsbilder",
+      "route": "/de/texte/erinnerungsbilder",
+      "baseRoute": "/texte/erinnerungsbilder",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/texte/erinnerungsbilder",
       "pageType": "text_detail",
       "sourceKey": "content/texts/erinnerungsbilder.md",
       "title": "Erinnerungsbilder | Notiz | Christoph Selbach",
       "description": "Erinnerungsbilder sind keine gespeicherten Abbilder der Vergangenheit, sondern transformierte Ordnungsbilder. Die Notiz beschreibt Erinnerung als fortlaufende...",
       "summary": "Erinnerung als Speicher?\n\nWir sprechen über Erinnerung häufig, als handele es sich um ein Speichersystem: Bilder würden abgelegt, konserviert und bei Bedarf wieder abgerufen. Diese Metapher suggeriert Neutralität und Stabilität – und verdeckt, dass Erinnerung tatsächlich nach...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/erinnerungsbilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/erinnerungsbilder"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/vita",
-      "canonicalUrl": "https://christoph-selbach.de/vita",
+      "route": "/de/vita",
+      "baseRoute": "/vita",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/vita",
       "pageType": "vita",
       "sourceKey": "content/site/about.md",
-      "title": "About | Christoph Selbach",
+      "title": "Vita | Christoph Selbach",
       "description": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden. Ich untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit,...",
       "summary": "Im Zentrum meiner Arbeit steht die Frage, wie Bilder zu Bildern werden. Ich untersuche das Verhältnis von Bild und Vorstellung, Ordnung und Wahrheit, Oberfläche und Bedeutung. Bilder erscheinen darin als offene, materielle und kontextabhängige Strukturen, in denen Wahrheit...",
       "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/vita"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/vita"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/decision-fields",
-      "canonicalUrl": "https://christoph-selbach.de/works/decision-fields",
+      "route": "/de/works/decision-fields",
+      "baseRoute": "/works/decision-fields",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/decision-fields",
       "pageType": "work_detail",
       "sourceKey": "content/works/decision-fields/work.json",
       "title": "Decision Fields | Arbeiten | Christoph Selbach",
@@ -179,12 +397,25 @@
       "summary": "Decision Fields fragt, wann ein Bild ein Bild von etwas ist. Die Arbeit verdichtet viele KI-Normbilder (Seeds) derselben Bildaufgabe (Prompt) zu einem Strukturfeld. Sichtbar wird, wo sich das Bild stabilisiert – und wo nicht. Man sieht keine Einzelbilder, sondern...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/decision-fields/images/0097_wc_iter2_converge_FieldConvergence_71_151 (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/decision-fields"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/decision-fields"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/exponate",
-      "canonicalUrl": "https://christoph-selbach.de/works/exponate",
+      "route": "/de/works/exponate",
+      "baseRoute": "/works/exponate",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/exponate",
       "pageType": "work_detail",
       "sourceKey": "content/works/exponate/work.json",
       "title": "Exponate | Arbeiten | Christoph Selbach",
@@ -192,12 +423,25 @@
       "summary": "Exponate zeigt Menschen in typischen touristischen Posen, jedoch ohne den üblichen Bildkontext. Weder das fotografierte Wahrzeichen noch die fotografierende Person sind sichtbar. Übrig bleiben isolierte Körperhaltungen, die ihre ursprüngliche Funktion verlieren und als...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/exponate/images/2_hoch_neu2_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/exponate"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/exponate"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/field-sessions",
-      "canonicalUrl": "https://christoph-selbach.de/works/field-sessions",
+      "route": "/de/works/field-sessions",
+      "baseRoute": "/works/field-sessions",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/field-sessions",
       "pageType": "work_detail",
       "sourceKey": "content/works/field-sessions/work.json",
       "title": "Field Sessions | Arbeiten | Christoph Selbach",
@@ -205,12 +449,25 @@
       "summary": "Field Sessions zeigt Bilder, die künstlerische Lesbarkeit erzeugen, obwohl sie nicht primär gemacht werden, um Bilder zu sein. Sie halten temporäre Zustände aus Bewegung, Wasser und Abrieb auf Betonflächen fest.\nDiese Zustände werden in der Bewegung einer Skateboard-Session...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/field-sessions/images/Field Sessions 003__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/field-sessions"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/field-sessions"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/image-function",
-      "canonicalUrl": "https://christoph-selbach.de/works/image-function",
+      "route": "/de/works/image-function",
+      "baseRoute": "/works/image-function",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/image-function",
       "pageType": "work_detail",
       "sourceKey": "content/works/image-function/work.json",
       "title": "Image Function | Arbeiten | Christoph Selbach",
@@ -218,12 +475,25 @@
       "summary": "Image Function zeigt typische Innenräume mit Bildern an vertrauten Stellen, doch die Bildflächen sind schwarz. Gerade dadurch wird sichtbar, dass Bilder Raumordnungen definieren und dass dabei nicht das Motiv, sondern die Platzierung entscheidend ist. Die Arbeiten zeigen...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/image-function/images/260310_ImageFunction1__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/image-function"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/image-function"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/image-state",
-      "canonicalUrl": "https://christoph-selbach.de/works/image-state",
+      "route": "/de/works/image-state",
+      "baseRoute": "/works/image-state",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/image-state",
       "pageType": "work_detail",
       "sourceKey": "content/works/image-state/work.json",
       "title": "Image State | Arbeiten | Christoph Selbach",
@@ -231,12 +501,25 @@
       "summary": "Image State nutzt ein Foto als Seed und erzeugt daraus über Übermalung, Reproduktion, regelbasierte Crops und Remixes eine rekursive Bildmaschine: Bilder gelten als temporäre Zustände aus Auswahl und Abbruch. Der Seed ist kein Werk, sondern Startwert; jede Übermalung ist ein...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/image-state/images/260211_Clouth_Seed01_02_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/image-state"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/image-state"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/neomaris",
-      "canonicalUrl": "https://christoph-selbach.de/works/neomaris",
+      "route": "/de/works/neomaris",
+      "baseRoute": "/works/neomaris",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/neomaris",
       "pageType": "work_detail",
       "sourceKey": "content/works/neomaris/work.json",
       "title": "Neomaris | Arbeiten | Christoph Selbach",
@@ -244,12 +527,25 @@
       "summary": "Neomaris zeigt Bilder, die an Algen, Korallen oder Tiefseewesen erinnern. Tatsächlich bestehen sie aus Plastikresten. Durch die Cyanotypie, ein frühes fotografisches Verfahren für wissenschaftliche Pflanzenbilder, erscheint ausgerechnet das Material, das Natur verdrängt, hier...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/neomaris"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/neomaris"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/possibly-you",
-      "canonicalUrl": "https://christoph-selbach.de/works/possibly-you",
+      "route": "/de/works/possibly-you",
+      "baseRoute": "/works/possibly-you",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/possibly-you",
       "pageType": "work_detail",
       "sourceKey": "content/works/possibly-you/work.json",
       "title": "Possibly You 1/(256^300) | Arbeiten | Christoph Selbach",
@@ -257,12 +553,25 @@
       "summary": "Sichtbar ist eine sich wandelnde Farbfläche. Erst der Titel „Possibly You 1/(256^300)“ lenkt den Blick darauf, dass hier nicht nur Farben wechseln, sondern die Möglichkeit eines bestimmten Bildzustands aufgerufen wird. Was erscheint, sind fortlaufend wechselnde Zustände aus...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/possibly-you/images/possibly-you-preview__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/possibly-you"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/possibly-you"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/siedlung",
-      "canonicalUrl": "https://christoph-selbach.de/works/siedlung",
+      "route": "/de/works/siedlung",
+      "baseRoute": "/works/siedlung",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/siedlung",
       "pageType": "work_detail",
       "sourceKey": "content/works/siedlung/work.json",
       "title": "Siedlung | Arbeiten | Christoph Selbach",
@@ -270,12 +579,25 @@
       "summary": "Siedlung zeigt Menschen in und vor Häusern in scheinbar alltäglichen Situationen. Aufgrund vertrauter Sehgewohnheiten werden die Personen automatisch den Räumen zugeordnet – als würden sie dort wohnen oder hingehören. Gerade diese Lesart wirkt merkwürdig distanziert und beginnt...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/siedlung/images/IMG_8492_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/siedlung"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/siedlung"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/similar-to-my-weekend",
-      "canonicalUrl": "https://christoph-selbach.de/works/similar-to-my-weekend",
+      "route": "/de/works/similar-to-my-weekend",
+      "baseRoute": "/works/similar-to-my-weekend",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/similar-to-my-weekend",
       "pageType": "work_detail",
       "sourceKey": "content/works/similar-to-my-weekend/work.json",
       "title": "Similar To My Weekend | Arbeiten | Christoph Selbach",
@@ -283,12 +605,25 @@
       "summary": "Similar to My Weekend konfrontiert private Wochenendfotos mit algorithmischer Ähnlichkeitssuche: Dieselben Bilder werden nicht als Erfahrung gelesen, sondern nach einer anderen Optimierungslogik neu zugeordnet. Die Arbeit nutzt „ähnliche Artikel finden“ auf Plattformen wie...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/similar-to-my-weekend/images/Handgemachte Retro Damen Stiefel Weiches Leder Zigarettenstiefel__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/similar-to-my-weekend"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/similar-to-my-weekend"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/strata",
-      "canonicalUrl": "https://christoph-selbach.de/works/strata",
+      "route": "/de/works/strata",
+      "baseRoute": "/works/strata",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/strata",
       "pageType": "work_detail",
       "sourceKey": "content/works/strata/work.json",
       "title": "Strata | Arbeiten | Christoph Selbach",
@@ -296,12 +631,25 @@
       "summary": "In Strata überlagern sich reale Zeitungsbilder von Vorder- und Rückseite zu surrealen, traumartigen Bildfeldern. Es sind keine manipulierten Bilder, sondern Bilder nach Entzug ihrer Ordnung, die als fragmentartige Bildsedimente neu erscheinen. Die Arbeiten entstehen in einem...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/strata/images/07.09.2025 FAZ_edited (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/strata"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/strata"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/surface-archive",
-      "canonicalUrl": "https://christoph-selbach.de/works/surface-archive",
+      "route": "/de/works/surface-archive",
+      "baseRoute": "/works/surface-archive",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/surface-archive",
       "pageType": "work_detail",
       "sourceKey": "content/works/surface-archive/work.json",
       "title": "Surface Archive | Arbeiten | Christoph Selbach",
@@ -309,12 +657,25 @@
       "summary": "Surface Archive zeigt Betonoberflächen. Durch die Titel werden Risse, Flecken und Ablagerungen als Spuren eines nuklearen Gefährdungsszenarios lesbar. Die Katastrophe ist nicht im Bild zu sehen, sondern entsteht im Kopf. Die Kamera registriert die Oberflächen plan und ohne...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/surface-archive/images/0068 - Fukushima Daiichi, Block 5 - Degradation Grade 1 - C50-60 - Moldish surface__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/surface-archive"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/surface-archive"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/top-3",
-      "canonicalUrl": "https://christoph-selbach.de/works/top-3",
+      "route": "/de/works/top-3",
+      "baseRoute": "/works/top-3",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/top-3",
       "pageType": "work_detail",
       "sourceKey": "content/works/top-3/work.json",
       "title": "Top 3 Most Pictured | Arbeiten | Christoph Selbach",
@@ -322,12 +683,25 @@
       "summary": "Die Arbeit zeigt Tafeln mit Bildbeschreibungen und kleinen Datenfeldern daneben. Top 3 Most Pictured behauptet das durchschnittliche Bild der drei am häufigsten fotografierten Orte der Welt, ohne sie zu benennen. Dieser pseudo-absolutistische Ordnungsanspruch greift, weil die...",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/top-3/images/2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/top-3"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/top-3"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     },
     {
-      "route": "/works/vor-ort",
-      "canonicalUrl": "https://christoph-selbach.de/works/vor-ort",
+      "route": "/de/works/vor-ort",
+      "baseRoute": "/works/vor-ort",
+      "language": "de",
+      "canonicalUrl": "https://christoph-selbach.de/de/works/vor-ort",
       "pageType": "work_detail",
       "sourceKey": "content/works/vor-ort/work.json",
       "title": "Vor Ort | Arbeiten | Christoph Selbach",
@@ -335,6 +709,687 @@
       "summary": "Vor Ort zeigt Fotos von Papptafeln mit Botschaften in urbanen Zwischenräumen. Manche Sätze wirken bekannt, lassen sich aber nicht einordnen. Erst Titel und Kontext zeigen, dass sie aus Wahlkämpfen stammen – und wie wenig diese Sprache ohne Plakat, Layout und Partei noch trägt....",
       "ogImage": "/favicons/icon-512.png",
       "imageSourcePath": "content/works/vor-ort/images/IMG_0864_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/vor-ort"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/vor-ort"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en",
+      "baseRoute": "/",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en",
+      "pageType": "home",
+      "sourceKey": "content/site/homepage.md",
+      "title": "Christoph Selbach",
+      "description": "At the centre of my work is the question of how images become pictures.\\\nI examine the relationship between image and imagination, order and truth, surface...",
+      "summary": "At the centre of my work is the question of how images become pictures.\\\nI examine the relationship between image and imagination, order and truth, surface and meaning. Images appear as open, material and context-dependent structures in which truth is not predetermined, but...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en"
+        },
+        {
+          "hreflang": "x-default",
+          "href": "https://christoph-selbach.de/"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/arbeiten",
+      "baseRoute": "/arbeiten",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/arbeiten",
+      "pageType": "works_overview",
+      "sourceKey": "content/site/curation.json",
+      "title": "Works | Christoph Selbach",
+      "description": "13 public work series in the portfolio of Christoph Selbach.",
+      "summary": "Decision Fields asks when an image is an image of something. The work condenses many AI standard images (seeds) of the same image task (prompt) into a structural field. It becomes visible where the image stabilises - and where it does not.",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/arbeiten"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/arbeiten"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/datenschutz",
+      "baseRoute": "/datenschutz",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/datenschutz",
+      "pageType": "privacy",
+      "sourceKey": "content/site/datenschutz.md",
+      "title": "Data protection | Christoph Selbach",
+      "description": "The protection of your personal data is important to me. This website does not currently use any third-party analysis, tracking or marketing services.",
+      "summary": "The protection of your personal data is important to me. This website does not currently use any third-party analysis, tracking or marketing services.\n\nResponsible body\n\nThe controller responsible for data processing on this website is\n\nChristoph Selbach\\\nLeipziger Platz...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/datenschutz"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/datenschutz"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/impressum",
+      "baseRoute": "/impressum",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/impressum",
+      "pageType": "imprint",
+      "sourceKey": "content/site/impressum.md",
+      "title": "Imprint | Christoph Selbach",
+      "description": "Christoph Selbach\\\nLeipziger Platz 9\\\n50733 Cologne\\\nGermany",
+      "summary": "Christoph Selbach\\\nLeipziger Platz 9\\\n50733 Cologne\\\nGermany\n\nSales tax ID\n\nNo sales tax identification number available\n\nResponsible for the content according to § 18 Abs. 2 MStV\n\nChristoph Selbach\\\n[address as above]\n\nNote on external shop offers\n\nLinks to external shop...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/impressum"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/impressum"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/kontakt",
+      "baseRoute": "/kontakt",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/kontakt",
+      "pageType": "contact",
+      "sourceKey": "content/site/kontakt.md",
+      "title": "Contact us | Christoph Selbach",
+      "description": "Contact for enquiries about work, projects and collaboration.",
+      "summary": "Contact for enquiries about work, projects and collaboration.\n\nThe easiest way is by e-mail:",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/kontakt"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/kontakt"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/shop",
+      "baseRoute": "/shop",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/shop",
+      "pageType": "shop_overview",
+      "sourceKey": "content/shop/config.json",
+      "title": "Shop | Christoph Selbach",
+      "description": "Here you will find a selection of my works for purchase. Originals are available on request; I also offer changing open and limited editions here.",
+      "summary": "Here you will find a selection of my works for purchase. Originals are available on request; I also offer changing open and limited editions here.",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/shop/neomaris",
+      "baseRoute": "/shop/neomaris",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/shop/neomaris",
+      "pageType": "shop_detail",
+      "sourceKey": "content/shop/works/neomaris.json",
+      "title": "Neomaris Edition | Shop | Christoph Selbach",
+      "description": "Cyanotypes made from plastic remnants that look like deep-sea creatures.",
+      "summary": "Neomaris presents images that recall algae, corals, or deep-sea creatures. In fact, they are made from plastic remnants. Through cyanotype, an early photographic process once used for scientific plant images, the very material that displaces nature appears here as nature...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop/neomaris"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop/neomaris"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/shop/sammlungskarte-test",
+      "baseRoute": "/shop/sammlungskarte-test",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/shop/sammlungskarte-test",
+      "pageType": "shop_detail",
+      "sourceKey": "content/shop/works/sammlungskarte-test.json",
+      "title": "Originals | Shop | Christoph Selbach",
+      "description": "Originals from several series are available on request. Please state the series and the title of the work in your enquiry so that I can send you a suitable...",
+      "summary": "Originals from several series are available on request. Please state the series and, if available, the title of the work in your enquiry so that I can send you a suitable offer.",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/decision-fields/images/0097_wc_iter2_converge_FieldConvergence_71_151 (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/shop/sammlungskarte-test"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/shop/sammlungskarte-test"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/texte",
+      "baseRoute": "/texte",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/texte",
+      "pageType": "texts_overview",
+      "sourceKey": "content/site/texts.md",
+      "title": "Texts | Christoph Selbach",
+      "description": "Texts on the use of images, image orders and the normalisation of visual practices.",
+      "summary": "Texts on the use of images, image orders and the normalisation of visual practices.",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/texte/das-missverstaendnis-der-bilder",
+      "baseRoute": "/texte/das-missverstaendnis-der-bilder",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/texte/das-missverstaendnis-der-bilder",
+      "pageType": "text_detail",
+      "sourceKey": "content/texts/das-missverstaendnis-der-bilder.md",
+      "title": "The misunderstanding of images | Essay | Christoph Selbach",
+      "description": "The essay describes the change of perspective from visible images to images without a viewing mandate and shows how systemic and evidence-orientated image...",
+      "summary": "The visible understanding of images\n\nWhen we talk about images, we almost always talk about motifs first. What can be seen in them? A face, a landscape, an event, an object. We talk about whether a picture is beautiful, well composed, interesting, successful, irritating or...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/das-missverstaendnis-der-bilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/das-missverstaendnis-der-bilder"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/texte/durchschnittsbilder",
+      "baseRoute": "/texte/durchschnittsbilder",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/texte/durchschnittsbilder",
+      "pageType": "text_detail",
+      "sourceKey": "content/texts/durchschnittsbilder.md",
+      "title": "Average images | Essay | Christoph Selbach",
+      "description": "Average images are not conspicuous images, but images that are effective precisely because of their inconspicuousness. The text describes them as a pictorial...",
+      "summary": "Pictorial logic of the inconspicuous\n\nAverage images are not a style or an image type. They are a pictorial logic. You don't recognise them by the fact that they stand out, but by the fact that they don't stand out. They do not contradict, do not demand anything and do not...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/durchschnittsbilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/durchschnittsbilder"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/texte/erinnerungsbilder",
+      "baseRoute": "/texte/erinnerungsbilder",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/texte/erinnerungsbilder",
+      "pageType": "text_detail",
+      "sourceKey": "content/texts/erinnerungsbilder.md",
+      "title": "Memory pictures | Notiz | Christoph Selbach",
+      "description": "Memory images are not stored images of the past, but transformed images of order. The note describes memory as a continuous re-ordering of images whose...",
+      "summary": "Memory as storage?\n\nWe often talk about memory as if it were a storage system: images are stored, preserved and retrieved when needed. This metaphor suggests neutrality and stability - and conceals the fact that memory actually operates according to other principles. The...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/texte/erinnerungsbilder"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/texte/erinnerungsbilder"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/vita",
+      "baseRoute": "/vita",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/vita",
+      "pageType": "vita",
+      "sourceKey": "content/site/about.md",
+      "title": "About | Christoph Selbach",
+      "description": "At the centre of my work is the question of how images become images. I examine the relationship between image and imagination, order and truth, surface and...",
+      "summary": "At the centre of my work is the question of how images become images. I examine the relationship between image and imagination, order and truth, surface and meaning. Images appear as open, material and context-dependent structures in which truth is not predetermined, but...",
+      "ogImage": "/favicons/icon-512.png",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/vita"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/vita"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/decision-fields",
+      "baseRoute": "/works/decision-fields",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/decision-fields",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/decision-fields/work.json",
+      "title": "Decision Fields | Works | Christoph Selbach",
+      "description": "Decision Fields asks when an image is an image of something. The work condenses many AI standard images (seeds) of the same image task (prompt) into a...",
+      "summary": "Decision Fields asks when an image is an image of something. The work condenses many AI standard images (seeds) of the same image task (prompt) into a structural field. It becomes visible where the image stabilises - and where it does not. You do not see individual images, but...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/decision-fields/images/0097_wc_iter2_converge_FieldConvergence_71_151 (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/decision-fields"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/decision-fields"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/exponate",
+      "baseRoute": "/works/exponate",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/exponate",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/exponate/work.json",
+      "title": "Exponate | Works | Christoph Selbach",
+      "description": "Exponate shows people in typical tourist poses, but without the usual pictorial context. Neither the photographed landmark nor the person taking the picture...",
+      "summary": "Exponate shows people in typical tourist poses, but without the usual pictorial context. Neither the photographed landmark nor the person taking the picture are visible. What remains are isolated postures that lose their original function and appear as independent pictorial...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/exponate/images/2_hoch_neu2_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/exponate"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/exponate"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/field-sessions",
+      "baseRoute": "/works/field-sessions",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/field-sessions",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/field-sessions/work.json",
+      "title": "Field Sessions | Works | Christoph Selbach",
+      "description": "Field Sessions shows images that create artistic legibility, although they are not primarily made to be images.",
+      "summary": "Field Sessions shows images that create artistic legibility, although they are not primarily made to be images. They capture temporary states of movement, water and abrasion on concrete surfaces.\nThese states are actively developed in the movement of a skateboard session:...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/field-sessions/images/Field Sessions 003__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/field-sessions"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/field-sessions"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/image-function",
+      "baseRoute": "/works/image-function",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/image-function",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/image-function/work.json",
+      "title": "Image Function | Works | Christoph Selbach",
+      "description": "Image Function shows typical interiors with pictures in familiar places, but the picture surfaces are black. This makes it clear that images define spatial...",
+      "summary": "Image Function shows typical interiors with pictures in familiar places, but the picture surfaces are black. This makes it clear that images define spatial arrangements and that it is not the motif but the placement that is decisive. The works show various spatial situations in...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/image-function/images/260310_ImageFunction1__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/image-function"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/image-function"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/image-state",
+      "baseRoute": "/works/image-state",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/image-state",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/image-state/work.json",
+      "title": "Image State | Works | Christoph Selbach",
+      "description": "Image State uses a photo as a seed and creates a recursive image machine from it via overpainting, reproduction, rule-based crops and remixes: images are...",
+      "summary": "Image State uses a photo as a seed and generates a recursive image machine from it via overpainting, reproduction, rule-based crops and remixes: images are regarded as temporary states of selection and cancellation. The seed is not a work, but a starting value; each...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/image-state/images/260211_Clouth_Seed01_02_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/image-state"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/image-state"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/neomaris",
+      "baseRoute": "/works/neomaris",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/neomaris",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/neomaris/work.json",
+      "title": "Neomaris | Works | Christoph Selbach",
+      "description": "Neomaris shows images that are reminiscent of algae, corals or deep-sea creatures. In fact, they are made of plastic residue. Thanks to the cyanotype, an...",
+      "summary": "Neomaris shows images that are reminiscent of algae, coral or deep-sea creatures. In fact, they are made of plastic residue. Thanks to the cyanotype, an early photographic process for scientific plant images, the very material that supplants nature appears here as nature...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/neomaris/images/stitcha2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/neomaris"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/neomaris"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/possibly-you",
+      "baseRoute": "/works/possibly-you",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/possibly-you",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/possibly-you/work.json",
+      "title": "Possibly You 1/(256^300) | Works | Christoph Selbach",
+      "description": "What is visible is a changing colour surface. Only the title \"Possibly You 1/(256^300)\" draws attention to the fact that here not only colours change, but the...",
+      "summary": "What is visible is a changing colour surface. Only the title \"Possibly You 1/(256^300)\" draws attention to the fact that not only colours change here, but that the possibility of a certain image state is invoked. What appears are continuously changing states of colour and grid....",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/possibly-you/images/possibly-you-preview__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/possibly-you"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/possibly-you"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/siedlung",
+      "baseRoute": "/works/siedlung",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/siedlung",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/siedlung/work.json",
+      "title": "Siedlung | Works | Christoph Selbach",
+      "description": "Siedlung shows people in and in front of houses in seemingly everyday situations. Based on familiar viewing habits, the people are automatically assigned to...",
+      "summary": "Siedlung shows people in and in front of houses in seemingly everyday situations. Based on familiar viewing habits, the people are automatically assigned to the rooms - as if they lived there or belonged there. This reading in particular seems strangely distanced and begins to...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/siedlung/images/IMG_8492_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/siedlung"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/siedlung"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/similar-to-my-weekend",
+      "baseRoute": "/works/similar-to-my-weekend",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/similar-to-my-weekend",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/similar-to-my-weekend/work.json",
+      "title": "Similar To My Weekend | Works | Christoph Selbach",
+      "description": "Similar to My Weekend confronts private weekend photos with algorithmic similarity searches: The same images are not read as experiences, but are reassigned...",
+      "summary": "Similar to My Weekend confronts private weekend photos with algorithmic similarity searches: The same images are not read as experiences, but are reassigned according to a different optimisation logic. The work uses \"find similar articles\" on platforms such as AliExpress or...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/similar-to-my-weekend/images/Handgemachte Retro Damen Stiefel Weiches Leder Zigarettenstiefel__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/similar-to-my-weekend"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/similar-to-my-weekend"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/strata",
+      "baseRoute": "/works/strata",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/strata",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/strata/work.json",
+      "title": "Strata | Works | Christoph Selbach",
+      "description": "In Strata, real newspaper images from the front and back are superimposed to create surreal, dreamlike image fields. These are not manipulated images, but...",
+      "summary": "In Strata, real newspaper images from the front and back are superimposed to create surreal, dreamlike image fields. They are not manipulated images, but images that have been stripped of their order and reappear as fragmentary image sediments. The works are created in a single...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/strata/images/07.09.2025 FAZ_edited (1)__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/strata"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/strata"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/surface-archive",
+      "baseRoute": "/works/surface-archive",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/surface-archive",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/surface-archive/work.json",
+      "title": "Surface Archive | Works | Christoph Selbach",
+      "description": "Surface Archive shows concrete surfaces. The titles make cracks, stains and deposits legible as traces of a nuclear hazard scenario. The catastrophe is not to...",
+      "summary": "Surface Archive shows concrete surfaces. The titles make cracks, stains and deposits legible as traces of a nuclear hazard scenario. The catastrophe is not to be seen in the picture, but arises in the mind.\nThe camera registers the surfaces flat and without depth:...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/surface-archive/images/0068 - Fukushima Daiichi, Block 5 - Degradation Grade 1 - C50-60 - Moldish surface__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/surface-archive"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/surface-archive"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/top-3",
+      "baseRoute": "/works/top-3",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/top-3",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/top-3/work.json",
+      "title": "Top 3 Most Pictured | Works | Christoph Selbach",
+      "description": "The work shows panels with image descriptions and small data fields next to them. Top 3 Most Pictured asserts the average image of the three most frequently...",
+      "summary": "The work shows panels with image descriptions and small data fields next to them. Top 3 Most Pictured asserts the average image of the three most frequently photographed places in the world without naming them. This pseudo-absolutistic claim to order is effective because the...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/top-3/images/2__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/top-3"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/top-3"
+        }
+      ],
+      "includeInSitemap": true,
+      "overrideApplied": false,
+      "overrideFields": []
+    },
+    {
+      "route": "/en/works/vor-ort",
+      "baseRoute": "/works/vor-ort",
+      "language": "en",
+      "canonicalUrl": "https://christoph-selbach.de/en/works/vor-ort",
+      "pageType": "work_detail",
+      "sourceKey": "content/works/vor-ort/work.json",
+      "title": "Vor Ort | Works | Christoph Selbach",
+      "description": "Vor Ort shows photos of cardboard panels with messages in urban spaces. Some of the sentences seem familiar, but cannot be categorised. Only the title and...",
+      "summary": "Vor Ort shows photos of cardboard panels with messages in urban spaces. Some of the sentences seem familiar, but cannot be categorised. Only the title and context reveal that they originate from election campaigns - and how little this language still carries without posters,...",
+      "ogImage": "/favicons/icon-512.png",
+      "imageSourcePath": "content/works/vor-ort/images/IMG_0864_edited__display.jpg",
+      "alternateLinks": [
+        {
+          "hreflang": "de",
+          "href": "https://christoph-selbach.de/de/works/vor-ort"
+        },
+        {
+          "hreflang": "en",
+          "href": "https://christoph-selbach.de/en/works/vor-ort"
+        }
+      ],
+      "includeInSitemap": true,
       "overrideApplied": false,
       "overrideFields": []
     }
